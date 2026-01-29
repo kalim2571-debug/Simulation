@@ -1,0 +1,52 @@
+# ===========================================
+# Git Ignore - Business Game
+# ===========================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database (NE PAS COMMIT en prod - donnees sensibles)
+*.db
+*.sqlite
+*.sqlite3
+business_game.db
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Secrets (IMPORTANT: ne jamais commit)
+secrets.toml
+.streamlit/secrets.toml
+
+# Archives locales
+Archives/
+
+# Tests temporaires
+test_*.py
+!test_modules.py
