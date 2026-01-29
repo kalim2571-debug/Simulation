@@ -1,7 +1,1 @@
-# ===========================================
-# System-level dependencies (for Streamlit Cloud)
-# ===========================================
-# Ce fichier est generalement vide pour un projet Python pur.
-# Ajouter ici si besoin de packages systeme (ex: libgl1-mesa-glx pour OpenCV)
 
-# Actuellement: aucun package systeme requis
